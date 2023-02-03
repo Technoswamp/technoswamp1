@@ -1,0 +1,226 @@
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('fondoD.jpg');
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+  
+}
+  header {
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10%;
+    font-family: 'Poppins', sans-serif;
+
+  }
+  .logo1 {
+    cursor: pointer;
+    margin-top: 50px;
+    margin-left: 0px;
+	
+  }
+  
+  .logo {
+    cursor: pointer;
+    margin-top: 200px;
+    margin-left: -100px;
+  }
+  
+  .nav__links a,
+  .cta,
+  .overlay__content a {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 5;
+    color: #edf0f1;
+    margin-right: 150px;
+    text-decoration: blink;
+  }
+  
+  .nav__links {
+    list-style: none;
+    margin-right: 200px;
+    display: flex;
+	  font-size: 25px;
+    
+  }
+  
+  .nav__links li {
+    padding: 0px 20px;
+  }
+  
+  .nav__links li a {
+    transition: color 0.3s ease 0s;
+  }
+  
+  .nav__links li a:hover {
+    color: #ddb120;
+  }
+  
+  .cta {
+    font-size: 25px;
+    cursor: pointer;
+
+  }
+  
+  .cta:hover {
+    background-color: rgba(3, 18, 49, 255);
+  }
+  
+  .menu {
+    display: none;
+  }
+
+  .foter {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	background-color: black;
+	color: rgb(250, 172, 4);
+	margin-top: 8rem;
+	text-align: center;
+	bottom: 0;
+}
+
+select{
+    border-radius: 10px;
+   height: 30px;
+   border-color: #f09628;
+    
+}
+.selectTuneado{
+   border-radius: 10px;
+   height: 30px;
+   background-color: #f09628;
+    
+}
+.optiontuneado{
+   background-color: #f09628; 
+}
+button{
+   border-radius: 10px;
+   height: 35px;
+   width: 70px;
+   background-color: #f09628;
+}
+
+.letraC{
+    font-size: 70 px;
+    font-color: #031231;
+}
+.letraBlanca{
+    font-size: 70px;
+    font-color: rgb(255, 255, 255);
+}
+.ancho{
+    height: 90px;
+    font-size: 70 px;
+}
+
+.contenedor{
+    height: 300px;
+    width: 1250px;
+    background-color: white;
+    padding: 15px;
+    
+}
+.contenedor2{
+    
+    width: 1250px;
+    height: 100%;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+     border:3px solid brown;
+    
+}
+.contenedor3{
+    
+    width: 1250px;
+    height:720;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+     border:3px white;
+    
+}
+.letraB{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 15px;
+    color: #310603;
+    text-decoration: blink;
+  }
+  .input{
+      
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        border: 1px solid #000000;
+        padding: 0 4px 0 4px;
+
+    border-color: orange;
+  }
+  .letranegra{
+      color:black;
+  }
+  .letranegraG{
+      color: #0088a9;
+      font-size: 25px;
+  }
+  .inputE{
+      border-radius: 10px;
+      height: 35px;
+      width: 200px;
+      background-color: #f09628; 
+  }
+  .inputE2{
+      border-radius: 10px;
+      height: 35px;
+      width: 380px;
+      background-color: #f09628; 
+  }
+#form {
+  width: 250px;
+  margin: 0 auto;
+  height: 50px;
+}
+
+#form p {
+  text-align: center;
+}
+
+#form label {
+  font-size: 1000px;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+label {
+  color: grey;
+}
+
+.clasificacion {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+label:hover,
+label:hover ~ label {
+  color: orange;
+}
+
+input[type="radio"]:checked ~ label {
+  color: orange;
+}
+.aC{
+    font-size: 40px;
+    color:black;
+}

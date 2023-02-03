@@ -1,0 +1,240 @@
+ /* En este css testeo cosas xd*/
+ body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('FondoProp.jpg');
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+  header {
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10%;
+    font-family: 'Poppins', sans-serif;
+
+  }
+  
+  .logo {
+    cursor: pointer;
+    margin-top: 200px;
+    margin-left: -100px;
+	
+  }
+  .foter {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	background-color: black;
+	color: rgb(250, 172, 4);
+	margin-top: 8rem;
+	text-align: center;
+	bottom: 0;
+}
+  .nav__links a,
+  .cta,
+  .overlay__content a {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 5;
+    color: #edf0f1;
+    margin-right: 80px;
+    text-decoration: blink;
+  }
+  
+  .nav__links {
+    list-style: none;
+    margin-right: 200px;
+    display: flex;
+	  font-size: 25px;
+    
+  }
+  
+  .nav__links li {
+    padding: 0px 20px;
+  }
+  
+  .nav__links li a {
+    transition: color 0.3s ease 0s;
+  }
+  
+  .nav__links li a:hover {
+    color: #ddb120;
+  }
+  
+  .cta {
+    font-size: 25px;
+    cursor: pointer;
+
+  }
+  
+  .cta:hover {
+    background-color: rgba(3, 18, 49, 255);
+  }
+  
+  .menu {
+    display: none;
+  }
+
+  .foter {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	background-color: black;
+	color: rgb(250, 172, 4);
+	margin-top: 8rem;
+	text-align: center;
+	bottom: 0;
+}
+
+select{
+    border-radius: 10px;
+   height: 30px;
+   border-color: #f09628;
+    
+}
+.selectTuneado{
+   border-radius: 10px;
+   height: 30px;
+   background-color: #f09628;
+    
+}
+.optiontuneado{
+   background-color: #f09628; 
+}
+button{
+   border-radius: 10px;
+   height: 35px;
+   width: 70px;
+   background-color: #f09628;
+}
+
+.letraC{
+    font-size: 70 px;
+    font-color: #031231;
+}
+.letraBlanca{
+    font-size: 70px;
+    font-color: white;
+}
+.ancho{
+    height: 90px;
+    font-size: 70 px;
+}
+
+.contenedor{
+    height: 50px;
+    width: 1250px;
+    background-color: white;
+    padding: 15px;
+    
+}
+.contenedor2{
+    
+    width: 1250px;
+    height: 100%;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+     border:3px solid brown;
+    
+}
+.letraB{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 15px;
+    color: #310603;
+    text-decoration: blink;
+  }
+  .input{
+      
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        border: 1px solid #000000;
+        padding: 0 4px 0 4px;
+
+    border-color: orange;
+  }
+  .letranegra{
+      color:black;
+  }
+  .Donaciones {
+    width: 500px;
+    height: 700px;
+    background: #14173ad8;
+    padding: 20px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+
+  }
+  
+  .Donaciones h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .controls {
+    transition: all .2 ease-out;
+    width: 100%;
+    background: #1f224b;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 16px;
+    border: 1.7px solid #323458;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: white;
+  }
+
+  .control {
+    text-align: left;
+  }
+
+  .controls:hover {
+    background: #050827;
+    border: 1.5px solid #ddb120;
+  }
+  
+  .Donaciones p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  
+  .Donaciones a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .Donaciones a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  .Donaciones .boton {
+    transition: all .2s ease-out;
+    width: 100%;
+    background: #323458;
+    border: none;
+    padding: 10px;
+    color: white;
+    margin: 20px 0;
+    font-size: 30px;
+    border-radius: 40px;
+  }
+
+  .Donaciones .boton:hover {
+    background: #1f224b;
+    font-size: 30px;
+  }
